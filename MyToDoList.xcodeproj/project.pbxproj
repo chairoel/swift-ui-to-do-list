@@ -29,6 +29,7 @@
 		13DC256D2D93E2E9002ED3E6 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC256C2D93E2E9002ED3E6 /* RegisterViewViewModel.swift */; };
 		13DC256F2D93E2F0002ED3E6 /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC256E2D93E2F0002ED3E6 /* LoginViewViewModel.swift */; };
 		13DC25712D93E306002ED3E6 /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC25702D93E306002ED3E6 /* ToDoListItemViewViewModel.swift */; };
+		13DC25732D9462E6002ED3E6 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC25722D9462E6002ED3E6 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		13DC256C2D93E2E9002ED3E6 /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		13DC256E2D93E2F0002ED3E6 /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
 		13DC25702D93E306002ED3E6 /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
+		13DC25722D9462E6002ED3E6 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				13DC25582D93E1BE002ED3E6 /* NewItemView.swift */,
 				13DC255A2D93E1C8002ED3E6 /* LoginView.swift */,
 				13DC255C2D93E1E3002ED3E6 /* RegisterView.swift */,
+				13DC25722D9462E6002ED3E6 /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13DC255B2D93E1C8002ED3E6 /* LoginView.swift in Sources */,
+				13DC25732D9462E6002ED3E6 /* HeaderView.swift in Sources */,
 				13DC254F2D93DCD2002ED3E6 /* MyToDoListApp.swift in Sources */,
 				13DC25652D93E286002ED3E6 /* MainViewViewModel.swift in Sources */,
 				13DC256F2D93E2F0002ED3E6 /* LoginViewViewModel.swift in Sources */,
