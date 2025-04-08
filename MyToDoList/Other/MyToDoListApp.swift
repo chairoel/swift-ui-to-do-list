@@ -15,8 +15,7 @@ struct MyToDoListApp: App {
     }
     var body: some Scene {
         WindowGroup {
-//            MainView()
-            LoginView()
+            MainView()
         }
     }
 }
