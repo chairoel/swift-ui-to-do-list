@@ -31,6 +31,7 @@
 		13DC25712D93E306002ED3E6 /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC25702D93E306002ED3E6 /* ToDoListItemViewViewModel.swift */; };
 		13DC25732D9462E6002ED3E6 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC25722D9462E6002ED3E6 /* HeaderView.swift */; };
 		13EDB1402D9DFA2E00615772 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EDB13F2D9DFA2E00615772 /* TLButton.swift */; };
+		13EDB1422D9EE1A600615772 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EDB1412D9EE1A600615772 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		13DC25702D93E306002ED3E6 /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
 		13DC25722D9462E6002ED3E6 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		13EDB13F2D9DFA2E00615772 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
+		13EDB1412D9EE1A600615772 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				13DC25452D93DCD2002ED3E6 /* Assets.xcassets */,
 				13DC25462D93DCD2002ED3E6 /* GoogleService-Info.plist */,
 				13DC25472D93DCD2002ED3E6 /* MyToDoListApp.swift */,
+				13EDB1412D9EE1A600615772 /* Extensions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 				13DC25552D93E191002ED3E6 /* ProfileView.swift in Sources */,
 				13DC25692D93E2BE002ED3E6 /* ToDoListViewViewModel.swift in Sources */,
 				13DC25502D93DCD2002ED3E6 /* MainView.swift in Sources */,
+				13EDB1422D9EE1A600615772 /* Extensions.swift in Sources */,
 				13DC25632D93E272002ED3E6 /* ToDoListItem.swift in Sources */,
 				13DC25592D93E1BE002ED3E6 /* NewItemView.swift in Sources */,
 				13DC256B2D93E2D2002ED3E6 /* NewItemViewViewModel.swift in Sources */,
