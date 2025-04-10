@@ -44,7 +44,7 @@ struct LoginView: View {
                     }
                     .padding()
                 }
-                .offset(y: -(UIScreen.main.bounds.height / 8))
+                .offset(y: -50)
 
                 // Create Account
                 VStack {
