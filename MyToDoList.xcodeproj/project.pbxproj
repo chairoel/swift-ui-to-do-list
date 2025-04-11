@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13C973F42DA90A8F00CBB7D9 /* StopBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C973F32DA90A8F00CBB7D9 /* StopBus.swift */; };
+		13C973F72DA90AB900CBB7D9 /* StopBusResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C973F62DA90AB900CBB7D9 /* StopBusResponse.swift */; };
 		13DC251E2D93D7C4002ED3E6 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 13DC251D2D93D7C4002ED3E6 /* FirebaseAuth */; };
 		13DC25202D93D7C4002ED3E6 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 13DC251F2D93D7C4002ED3E6 /* FirebaseFirestore */; };
 		13DC254F2D93DCD2002ED3E6 /* MyToDoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC25472D93DCD2002ED3E6 /* MyToDoListApp.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13C973F32DA90A8F00CBB7D9 /* StopBus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopBus.swift; sourceTree = "<group>"; };
+		13C973F62DA90AB900CBB7D9 /* StopBusResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopBusResponse.swift; sourceTree = "<group>"; };
 		13DC250B2D93D703002ED3E6 /* MyToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13DC25452D93DCD2002ED3E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13DC25462D93DCD2002ED3E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -74,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13C973F52DA90AA800CBB7D9 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				13C973F62DA90AB900CBB7D9 /* StopBusResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
 		13DC25022D93D703002ED3E6 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +107,7 @@
 			children = (
 				13DC25602D93E267002ED3E6 /* User.swift */,
 				13DC25622D93E272002ED3E6 /* ToDoListItem.swift */,
+				13C973F32DA90A8F00CBB7D9 /* StopBus.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -152,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				13DC25482D93DCD2002ED3E6 /* Other */,
+				13C973F52DA90AA800CBB7D9 /* Response */,
 				13DC25442D93DCD2002ED3E6 /* Models */,
 				13DC254B2D93DCD2002ED3E6 /* ViewModels */,
 				13DC254D2D93DCD2002ED3E6 /* Views */,
@@ -243,6 +257,8 @@
 				13DC25732D9462E6002ED3E6 /* HeaderView.swift in Sources */,
 				13DC254F2D93DCD2002ED3E6 /* MyToDoListApp.swift in Sources */,
 				13DC25652D93E286002ED3E6 /* MainViewViewModel.swift in Sources */,
+				13C973F42DA90A8F00CBB7D9 /* StopBus.swift in Sources */,
+				13C973F72DA90AB900CBB7D9 /* StopBusResponse.swift in Sources */,
 				13DC256F2D93E2F0002ED3E6 /* LoginViewViewModel.swift in Sources */,
 				13DC255F2D93E225002ED3E6 /* ToDoListView.swift in Sources */,
 				13DC25572D93E1B0002ED3E6 /* ToDoListItemView.swift in Sources */,

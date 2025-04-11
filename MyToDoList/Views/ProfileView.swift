@@ -28,6 +28,7 @@ struct ProfileView: View {
     
     @ViewBuilder
     func profile(user: User) -> some View {
+       let dataBus = viewModel.stopBus
         
         // Avatar
         Image(systemName: "person.circle")
@@ -54,7 +55,20 @@ struct ProfileView: View {
                     .bold()
                 Text("\(Date(timeIntervalSince1970: user.joined).formatted(date: .abbreviated, time: .shortened))")
             }
+            
+            HStack {
+                Text("Bus Stop: ")
+                    .bold()
+                Text(dataBus.count > 0 ? dataBus[0].label : "Data kosong!")
+            }
         }
+        .padding()
+        
+        // Test button
+        Button("Call Api") {
+            viewModel.fetchData()
+        }
+        .tint(.red)
         .padding()
         
         // Sign Out

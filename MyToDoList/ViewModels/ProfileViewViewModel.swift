@@ -15,6 +15,7 @@ class ProfileViewViewModel: ObservableObject {
     }
     
     @Published var user: User? = nil
+    @Published var stopBus: [StopBus] = []
     
     func fetchUser() {
         guard let userId = Auth.auth().currentUser?.uid else {
@@ -45,4 +46,36 @@ class ProfileViewViewModel: ObservableObject {
             print(error)
         }
     }
+    
+    func fetchData() {
+        guard let url = URL(string: "https://m-smpobapi-dev.transjakarta.co.id/api/v1/smpob-mobile/obu/stops?trips=10-R02") else {
+            print("❌ Invalid URL")
+            return
+        }
+
+        URLSession.shared.dataTask(with: url) { data, response, error in
+            if let error = error {
+                print("❌ Error: \(error.localizedDescription)")
+                return
+            }
+
+            guard let data = data,
+                  let httpResponse = response as? HTTPURLResponse,
+                  httpResponse.statusCode == 200 else {
+                print("❌ Invalid response or no data")
+                return
+            }
+
+            do {
+                let stopBusResponse = try JSONDecoder().decode(StopBusResponse.self, from: data)
+                DispatchQueue.main.async {
+                    self.stopBus = stopBusResponse.data
+                }
+            } catch {
+                print("❌ JSON Decode Error: \(error.localizedDescription)")
+            }
+        }.resume()
+    }
+
+    
 }
